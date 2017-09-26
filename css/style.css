@@ -1,0 +1,113 @@
+@media only screen and (min-width: 740px) and (max-width: 1260px) {
+	.slideBox {
+    height: 200px !important;
+	}
+	.c-content {
+    width: 90% !important;
+	}
+}
+@media only screen and (max-width: 740px){
+	.slideBox {
+    height: 116px !important;
+	}
+	.c-content {
+    width: 90% !important;
+	}
+	.navlist li{
+		margin-bottom: .3em;
+	}
+	.navlist li a {
+    padding: 6px 16px !important;
+	}
+}    
+.slideBox {
+    width: 100%;
+    height: 253px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 81px;
+}
+.slideBox .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+.slideBox .hd {
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -56.5px;
+    z-index: 1;
+}
+.slideBox .hd ul li {
+    float: left;
+    margin-right: 30px;
+    width: 15px;
+    height: 15px;
+    line-height: 14px;
+    cursor: pointer;
+    background: url(../img/空心圈.png);
+}
+.slideBox .hd ul li.on {
+    background: url(../img/实心圈.png);
+}
+.slideBox .bd ul {
+    height: 100%;
+    width: 100%;
+}
+.slideBox .bd li {
+    zoom: 1;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+.bg1{
+    background-size: 100% 100%;
+}
+.c-content{
+	width: 1260px;
+	margin: 0 auto;
+}
+.content{
+	padding: 0 16px;
+}
+.content h2{
+	margin-top: 1.2em;
+	font-size: 2em;
+	color: #5a5858;
+	text-align: center;
+}
+.navlist{
+	text-align: center;
+	margin: 1.5em 0 3em 0;
+}
+.navlist li{
+	display: inline-block;
+	padding: 0 .2em;
+}
+.navlist li a{
+	display: block;
+    padding: 12px 30px;
+    color: #4a4a4a;
+    border-radius: 30px;
+    border: 1px solid #4a4a4a;
+}
+.navlist li a:hover{
+	background: #73ceff;
+	border: 1px solid #73ceff;
+	color: #FFFFFF;
+}
+.navlist .active a{
+	background: #73ceff;
+	border: 1px solid #73ceff;
+	color: #FFFFFF;
+}
+.con-p p{
+	margin-bottom: 1.5em;
+	text-indent: 2em;
+	font-size: 1em;
+	line-height: 1.8em;
+	color: #808080;
+}
